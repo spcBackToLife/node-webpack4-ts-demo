@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+     "strictNullChecks": true,
+     "module": "commonjs",
+     "esModuleInterop": true,
+     "importHelpers": true,
+     "allowSyntheticDefaultImports": true,
+     "target": "es5",
+     "lib": [
+      "es2015"
+     ]
+  },
+  "include": [
+      "src" // write ts in src, you can define your own dir
+  ]
+}
